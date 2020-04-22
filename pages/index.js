@@ -4,7 +4,7 @@ const User = () => {
   const { user, loading } = useUserData();
   const [updateUserData] = useSetUserData();
   const handleUpdate = (fields) => {
-    updateUserData({ rowid: "asdas", fields });
+    updateUserData({ Auth0: user.Auth0, rowid: "asdas", fields });
   };
 
   return (
