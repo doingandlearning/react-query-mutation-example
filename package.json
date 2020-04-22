@@ -1,0 +1,32 @@
+{
+  "name": "react-query-mutation-example",
+  "version": "1.0.0",
+  "description": "Created with CodeSandbox",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doingandlearning/react-query-mutation-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doingandlearning/react-query-mutation-example/issues"
+  },
+  "homepage": "https://github.com/doingandlearning/react-query-mutation-example#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.15",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-query": "^1.2.9"
+  }
+}
